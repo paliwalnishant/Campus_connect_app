@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campusconnect"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@raw/iconcc">
+        <activity
+            android:name=".CCMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.campusconnect.MainCampus" android:label="@string/buzzhome" android:parentActivityName="com.example.campusconnect">
+
+<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.collegeconnect"/>
+
+</activity>
+
+        
+        <activity
+            android:name="com.example.campusconnect.Events"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        
+        
+        
+        <activity
+            android:name="com.example.campusconnect.button2"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button3"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button4"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button5"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button6"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button7"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.button8"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+         <activity
+            android:name="com.example.campusconnect.Register"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.UserRegister"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.UserLogin"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.AdminLogin"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.addcomment"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.AdminClass"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.Readcomments"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnect.HellAdmin"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        
+        <activity
+            android:name="com.example.campusconnnect.AddNews"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        <activity
+            android:name="com.example.campusconnnect..Viewparti"
+            android:label="@string/title_activity_base_main"
+            android:parentActivityName="com.example.campusconnect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.campusconnect" />
+        </activity>
+        
+        
+    </application>
+    
+
+</manifest>

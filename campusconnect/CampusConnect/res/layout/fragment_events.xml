@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/top_layover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="EVENTS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        
+        <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="5dp"
+    android:id="@+id/events_strip1"
+    android:background="@raw/strip"
+    android:contentDescription="@string/desc"
+         android:padding="5dp"
+        />
+    
+    <ImageView 
+         android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/events_image"
+    android:background="@raw/kripson"
+    android:contentDescription="@string/desc"
+    
+     android:padding="5dp"
+        />
+     <ImageView 
+        android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:id="@+id/events_strip2"
+    android:background="@raw/strip"
+    android:contentDescription="@string/desc"
+    
+     android:padding="5dp"
+        />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layover"
+        android:layout_below="@+id/top_layover"
+        android:background="#fff"
+        android:divider="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/bottom_layover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+       
+    </LinearLayout>
+
+</RelativeLayout>

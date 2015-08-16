@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/action_home"
+          android:icon="@raw/action_home"
+          android:title="@string/action_search"
+          android:showAsAction="always"/>"
+     <item 
+         android:id="@+id/action_google"
+         android:icon="@raw/google"
+         android:title="@string/action_googletitle"
+         android:showAsAction="ifRoom"
+         />
+     /* <item 
+         android:id="@+id/action_jiit"
+         android:icon="@raw/jiit"
+         android:title="@string/action_jiit"
+         android:showAsAction="ifRoom"
+         />
+     */
+       <item 
+         android:id="@+id/action_facebook"
+         android:icon="@raw/facebook"
+         android:title="@string/action_facebooktitle"
+         android:showAsAction="ifRoom"
+         />
+    
+</menu>
